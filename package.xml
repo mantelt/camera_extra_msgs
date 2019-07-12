@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>camera_extra_msgs</name>
+  <version>0.0.1</version>
+  <description>Additional ROS messages useful when working with cameras.</description>
+  <maintainer email="thomas.mantel@mavt.ethz.ch">Thomas Mantel</maintainer>
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <export></export>
+</package>
